@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:stretchColumns="1,2,3,4,5,6,7,8,9">
+
+    <TableRow>
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_hariTabel"
+            android:layout_width="80dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_umurPemeliharaanTabel"
+            android:layout_width="121dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_bobotTabel"
+            android:layout_width="112dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_kelangsunganHidupTabel"
+            android:layout_width="120dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_ikanHidupTabel"
+            android:layout_width="112dp"
+            android:layout_column="1"
+
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_prediksiBiomasTabel"
+            android:layout_width="132dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_FRTabel"
+            android:layout_width="112dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_pakanHarianTabel"
+            android:layout_width="120dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+        <com.example.autofeed.utils.AFTextView
+            android:id="@+id/tv_pakanKumulatifTabel"
+            android:layout_width="120dp"
+            android:layout_column="1"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textSize="@dimen/tv_textSize" />
+
+    </TableRow>
+
+</TableLayout>

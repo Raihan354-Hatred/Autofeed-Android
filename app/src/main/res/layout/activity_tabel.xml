@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_header"
+    android:orientation="vertical"
+    tools:context=".activities.TabelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_weight="1">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarTabel"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.example.autofeed.utils.AFTextViewBold
+                android:id="@+id/tv_titleToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingStart="@dimen/toolbar_tittlePaddingStart"
+                android:paddingEnd="0dp"
+                android:text="@string/tabel_harian"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/toolbar_tittleTextSize" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg_side_background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:stretchColumns="1,2,3,4,5,6,7,8,9">
+
+            <TableRow>
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="80dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/hari_ke"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="121dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/umur_pemeliharaan"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="112dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/bobot"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="120dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/kelangsungan_hidup_persen"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="112dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/ikan_hidup_ekor"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="132dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/prediksi_biomas_gram"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="112dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/feeding_rate"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="120dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/pakan_harian_kg"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@color/colorMain"
+                    android:layout_width="120dp"
+                    android:layout_height="@dimen/tv_tabelHeight"
+                    android:layout_column="1"
+                    android:gravity="start"
+                    android:padding="8dp"
+                    android:text="@string/pakan_kumulatif_kg"
+                    android:textSize="@dimen/tv_textSize"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_tabelKalkulator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false" />
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

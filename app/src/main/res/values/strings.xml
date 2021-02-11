@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Autofeed</string>
+    <string name="tanggal_tebar">Tanggal Tebar</string>
+    <string name="jumlah_tebar_benih">Jumlah Tebar Benih</string>
+    <string name="masukkan_data">Masukkan data</string>
+    <string name="size_benih">Size Benih</string>
+    <string name="kelangsungan_hidup">Kelangsungan Hidup</string>
+    <string name="size_panen">Size Panen</string>
+    <string name="feeding_rate_awal">Feeding Rate Awal</string>
+    <string name="lama_pemeliharaan">Lama Pemeliharaan</string>
+    <string name="selisih_feeding_rate">Selisih Feeding Rate</string>
+    <string name="feeding_rate_akhir">Feeding Rate Akhir</string>
+    <string name="hitung">Hitung</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_kalkulator">Kalkulator</string>
+    <string name="menu_shop">Shop</string>
+    <string name="menu_user">User</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_conversion_ratio">Food Conversion Ratio (FCR)</string>
+    <string name="total_kebutuhan_pakan">Total Kebutuhan Pakan</string>
+    <string name="biomas_akhir">Biomas Akhir</string>
+    <string name="rerata_bobot_akhir">Rerata Bobot Akhir</string>
+    <string name="biomas_awal">Biomas Awal</string>
+    <string name="hari">hari</string>
+    <string name="hari_ke">Hari ke-</string>
+    <string name="laju_pertumbuhan_spesifik">Laju Pertumbuhan Spesifik</string>
+    <string name="total_kematian">Total Kematian</string>
+    <string name="kematian_harian">Kematian Harian</string>
+    <string name="rerata_bobot_awal">Rerata Bobot Awal</string>
+    <string name="autofeed">AutoFeed</string>
+
+    <string name="content_description">image</string>
+    <string name="tittle_login">LOGIN</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="lbl_forgotPassword">Lupa Password?</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_dontHaveAnAccount">Belum memiliki akun?</string>
+    <string name="register"><u>Daftar disini</u></string>
+
+    <string name="buat_akun">Buat Akun</string>
+    <string name="hint_firstName">Nama Depan</string>
+    <string name="hint_lastName">Nama Belakang</string>
+    <string name="hint_confirmPassword">Ulangi Password</string>
+    <string name="agree_termsCondition">Saya setuju dengan <u>Syarat &amp; Ketentuan</u> dari AutoFeed</string>
+    <string name="btn_register">Daftar</string>
+    <string name="tv_haveAnAccount">Sudah punya akun?</string>
+    <string name="login"><u>Login disini</u></string>
+
+    <string name="err_msgEnterFirstName">Mohon masukkan nama depan anda!</string>
+    <string name="err_msgEnterLastName">Mohon masukkan nama belakang anda!</string>
+    <string name="err_msgEnterEmail">Mohon masukkan email anda!</string>
+    <string name="err_msgEnterPassword">Pastikan password anda terdiri dari 8 characters.</string>
+    <string name="err_msgEnterConfirmPassword">Pastikan password anda terdiri dari 8 characters.</string>
+    <string name="err_msgMissMatchPassword">Pastikan password yang anda masukkan sama.</string>
+    <string name="err_msgTermsCondition">Anda belum menyetujui syarat dan ketentuan kami.</string>
+    <string name="success_register">Selamat! Akun anda berhasil dibuat</string>
+
+    <string name="pleaseWait">Mohon Tunggu&#8230;</string>
+    <string name="btn_forgotPassword">Kirim</string>
+    <string name="tv_forgotPassword">Masukkan email akun yang ingin diatur ulang.</string>
+
+    <string name="emailSentSuccess">Kode verifikasi berhasil dikirim ke email anda.</string>
+
+    <string name="tittle_profile">Profil</string>
+    <string name="et_hintNoHP">Nomor HP</string>
+    <string name="rb_male">Laki-laki</string>
+    <string name="rb_female">Perempuan</string>
+    <string name="btn_save">Simpan</string>
+    <string name="read_StoragePermissionDenied">Maaf, anda belum menyetujui akses Autofeed ke penyimpanan anda.</string>
+    <string name="image_selectionFailed">Foto gagal diupload</string>
+    <string name="err_msgNoHP">No HP tidak boleh kosong</string>
+    <string name="msg_profileUpdateSuccess">Profil berhasil diupdate.</string>
+    <string name="err_msgJumlahTebar">Masukkan jumlah tebar.</string>
+    <string name="err_msgSizeBenih">Masukkan size benih.</string>
+    <string name="err_msgSizePanen">Masukkan size panen.</string>
+    <string name="err_msgLamaPelihara">Masukkan lama pemeliharaan.</string>
+    <string name="err_msgTanggalTebar">Masukkan tanggal tebar.</string>
+    <string name="err_msgKelangsunganHidup">Masukkan kelangsungan hidup.</string>
+    <string name="err_msgFRAwal">Masukkan Feeding rate awal.</string>
+    <string name="err_msgFRAkhir">Masukkan feeding rate akhir</string>
+    <string name="err_msgSelisihFR">Masukkan selisih feeding rate</string>
+    <string name="ekor_kg">ekor /kg</string>
+    <string name="hasil_perhitungan">Hasil Perhitungan</string>
+    <string name="gram_ekor">gram /ekor</string>
+    <string name="kg">kg</string>
+    <string name="persen">%</string>
+    <string name="per_hari">% per hari</string>
+    <string name="simpan">Simpan</string>
+    <string name="cek_tabel_harian">Cek Tabel Harian</string>
+    <string name="ekor">ekor</string>
+    <string name="hasil_input">Hasil Input</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="umur_pemeliharaan">Umur pemeliharaan (hari)</string>
+    <string name="bobot">Bobot (gram /ekor)</string>
+    <string name="kelangsungan_hidup_persen">Kelangsungan hidup (%)</string>
+    <string name="ikan_hidup_ekor">Ikan Hidup (ekor)</string>
+    <string name="prediksi_biomas_gram">Prediksi biomas (gram)</string>
+    <string name="feeding_rate">Feeding Rate (5%-3%)</string>
+    <string name="pakan_harian_kg">Pakan harian (kg)</string>
+    <string name="pakan_kumulatif_kg">Pakan kumulatif (kg)</string>
+    <string name="tabel_harian">TABEL HARIAN</string>
+    <string name="gram">gram</string>
+    <string name="kalkulator">KALKULATOR</string>
+    <string name="hasil_kalkulator">HASIL PERHITUNGAN</string>
+
+</resources>

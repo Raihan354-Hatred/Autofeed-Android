@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMain">#0D7377</color>
+    <color name="colorSide1">#32E0C4</color>
+    <color name="colorSide2">#87D1D4</color>
+
+    <color name="colorTextMain">#505050</color>
+    <color name="colorTextSide">#AFAFAF</color>
+
+    <color name="White">#FFF</color>
+
+    <color name="colorSnackBarError">#F71500</color>
+    <color name="colorSnackBarSuccess">#32E0C4</color>
+
+    <color name="colorTabel">#C5FFED</color>
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984542132500",
+    "project_id": "autofeed-2021",
+    "storage_bucket": "autofeed-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984542132500:android:8bae3eeb1098e9b33aea01",
+        "android_client_info": {
+          "package_name": "com.example.autofeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984542132500-tjmj8fdb12pr8qhgmsrj1cbrt8spaboa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autofeed",
+            "certificate_hash": "80142f256c441ef2a6d116e821cbd38beb7f136b"
+          }
+        },
+        {
+          "client_id": "984542132500-canl271u7v6k8o8dh7v7rr33pgb3tr7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn-bYb8htH_tw9l0XtupnKHWH1tX2u3O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984542132500-canl271u7v6k8o8dh7v7rr33pgb3tr7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

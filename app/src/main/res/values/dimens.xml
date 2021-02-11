@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_text_size">35sp</dimen>
+
+    <dimen name="auth_headerHeight">200dp</dimen>
+    <dimen name="auth_logoWidth">150dp</dimen>
+    <dimen name="auth_logoHight">150dp</dimen>
+    <dimen name="title_textSize">18sp</dimen>
+    <dimen name="et_textSize">16sp</dimen>
+    <dimen name="tv_textSize">16sp</dimen>
+    <dimen name="et_padding">16sp</dimen>
+    <dimen name="clickable_textView_padding">8dp</dimen>
+    <dimen name="forgotPassword">14sp</dimen>
+    <dimen name="btn_textSize">18sp</dimen>
+    <dimen name="btn_padding">8dp</dimen>
+    <dimen name="lbl_textView">16sp</dimen>
+
+    <dimen name="toolbar_tittlePaddingStart">-25dp</dimen>
+    <dimen name="toolbar_tittleTextSize">18sp</dimen>
+    <dimen name="txt_termsCondition_marginStart">8dp</dimen>
+    <dimen name="txt_termsCondition_textSize">14sp</dimen>
+    <dimen name="btn_paddingTopBottom">8dp</dimen>
+
+    <dimen name="progressDialog_padding">10dp</dimen>
+    <dimen name="progressBarSize">48dp</dimen>
+    <dimen name="progressText_margin">16dp</dimen>
+    <dimen name="progressTextSize">16sp</dimen>
+
+    <dimen name="user_imageBackground_stroke">4dp</dimen>
+    <dimen name="user_imageBackground_radius">8dp</dimen>
+    <dimen name="profile_imageSize">152dp</dimen>
+    <dimen name="profile_imageMarginTop">32dp</dimen>
+    <dimen name="profile_photoMargin">4dp</dimen>
+    <dimen name="profile_radioButton_height">40dp</dimen>
+    <dimen name="profile_radioButton_marginStart">4dp</dimen>
+    <dimen name="gender_radioButton_radius">4dp</dimen>
+    <dimen name="gender_radioButtton_stroke">1dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_verysmall">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="tv_tabelHeight">72dp</dimen>
+
+
+</resources>

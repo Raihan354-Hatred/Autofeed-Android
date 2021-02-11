@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#2D9B8E" android:startColor="#73EFBB" android:type="linear" />
+            <corners android:radius="@dimen/gender_radioButton_radius" />
+        </shape>
+    </item>
+
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/gender_radioButtton_stroke" android:color="@color/colorSide1" />
+            <corners android:radius="@dimen/gender_radioButton_radius" />
+        </shape>
+    </item>
+
+</selector>
